@@ -2,5 +2,6 @@
   "code-runner.runInTerminal": true,
   "code-runner.executorMap": {
     "java": "cd $dir ; javac -d out $fileName ; if ($?) { java -cp out $fileNameWithoutExt }"
-  }
+  },
+  "java.codeGeneration.hashCodeEquals.useJava7Objects": true
 }
